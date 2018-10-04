@@ -1,0 +1,12 @@
+
+Key Differences Between Paging and Segmentation
+
+The basic difference between paging and segmentation is that a page is always of fixed block size whereas, a segment is of  variable size.
+
+Paging may lead to internal fragmentation as the page is of fixed block size, but it may happen that the process does not acquire the entire block size which will generate the internal fragment in memory. The segmentation may lead to external fragmentation as the memory is filled with the variable sized blocks.
+
+In paging the user only provides asingle integer as the address which is divided by the hardware into a page number and Offset. On the other hands, in segmentation the user specifies the address in two quantities i.e. segment number and offset.
+
+The size of the page is decided or specified by the hardware. On the other hands, the size of the segment is specified by the user.
+
+In paging, the page table maps the logical address to the physical address, and it contains base address of each page stored in the frames of physical memory space. However, in segmentation, the segment table maps the logical address to the physical address, and it contains segment number and offset (segment limit).
