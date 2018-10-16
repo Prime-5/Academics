@@ -1,0 +1,5 @@
+Logical Memory: Logical memory enables the user to use large amount of memory to store data. It defines way to organize the physical memory such as RAM and cache. This enables the Operating System to arrange memory into a logical manner such as assigning a logical address.
+
+Virtual Memory: Virtual memory is a part of the secondary memory(say hard disk) which is used as a memory. When the processor executes the instructions, it converts the virtual memory addresses into real memory addresses. The main use of the virtual memory is to increase the address space.
+
+Physical Memory: Physical memory is the Primary memory RAM available in your system. It is the only memory that is directly accessible to the CPU. CPU reads the instructions stored in the physical memory and executes them continuously. The data that is operated will also be stored in physical memory in uniform manner.
